@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                 player_score.text = "$b"
                 computer_score.text = "$c"
             }else if (((player_choicee == "Rock")&&(comp_choice == "Scissors"))|| ((player_choicee == "Paper")&&(comp_choice == "Rock"))||((player_choicee == "Scissors")&&(comp_choice == "Paper"))){
-                result.text = "You have won!!!\nWay to go!!"
+                result.text = "You won!!!\nWay to go!!"
                 b += 1
 
                 player_choice.text = "$player_choicee"
